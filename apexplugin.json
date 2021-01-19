@@ -1,5 +1,5 @@
 {
-  "name": "IR download as Zip-file",
+  "name": "IR Zip-file Download",
   "version": "1.0.1",
   "description": "Process plugin for download for interactive reports as zip files",
   "keywords": ["download", "interactive", "report", "zip"],
