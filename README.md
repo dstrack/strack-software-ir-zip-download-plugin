@@ -7,15 +7,11 @@ Usage:
 1. Install the plugin file process_type_plugin_com_strack-software_ir_zip_download.sql in your application.
 2. add a Button to your Report region.
 3. set the Button action to redirect and set the link to the current page with Request = 'ZIP_DOWNLOAD'
-4. In the Rendering tab at pre-Rendering / Before Header add a 'Process' of type 'plugin', choose the 'IR Zip Download' plugin, set the Attribute 'Region Name' to the name of the IR Region.
+4. In the Rendering tab at pre-Rendering / Before Header add a 'Process' of type 'plugin', choose the 'IR Zip Download' plugin.
+    Set the Setting / Region Name to contain the title of the IR Region.
+    Set Condition / Type to REQUEST = Value, set Condition / Value to ZIP_DOWNLOAD
 
-IR_Zip_Download.Download_Zip(
-    p_Region_Name => 'Sample Report', /* Enter your IR region title here */
-    p_Application_ID => :APP_ID,
-    p_App_Page_ID => :APP_PAGE_ID
-);
-
-The procedure performs the following steps:
+The plugin performs the following steps:
 1. extract the query with APEX_IR.GET_REPORT
 2. bind the variables
 3. Open cursor for query
