@@ -1,11 +1,11 @@
 {
-  "name": "Upload to Collection",
-  "version": "1.0.8",
-  "description": "Process plugin for upload to apex_collections",
-  "keywords": ["import", "upload", "collections"],
-  "homepage": "https://github.com/dstrack/strack-software-upload-to-collection-plugin",
+  "name": "IR download as Zip-file",
+  "version": "1.0.1",
+  "description": "Process plugin for download for interactive reports as zip files",
+  "keywords": ["download", "interactive", "report", "zip"],
+  "homepage": "https://github.com/dstrack/strack-software-ir-zip-download-plugin",
   "bugs": {
-    "url": "https://github.com/dstrack/strack-software-upload-to-collection-plugin/issues",
+    "url": "https://github.com/dstrack/strack-software-ir-zip-download-plugin/issues",
     "email": "strack.software@t-online.de"
   },
   "license": "MIT",
@@ -16,17 +16,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dstrack/strack-software-upload-to-collection-plugin.git"
+    "url": "https://github.com/dstrack/strack-software-ir-zip-download-plugin.git"
   },
   "oracle": {
-    "versions": ["11.2.0.1", "19.1"],
+    "versions": ["12.2.0.1", "20.1"],
     "apex": {
       "versions": ["5.1.0", "20.1"],
       "plugin": {
         "internalName": "COM.STRACK-SOFTWARE.IR_ZIP_DOWNLOAD",
         "type": "process",
-        "demo": "https://apex.oracle.com/pls/apex/f?p=103003:LOGIN_DESKTOP",
-        "previewImage": "https://raw.githubusercontent.com/dstrack/strack-software-upload-to-collection-plugin/master/preview.png"
+        "demo": "https://apex.oracle.com/pls/apex/f?p=39653:LOGIN_DESKTOP",
+        "previewImage": ""
       }
     }
   }
