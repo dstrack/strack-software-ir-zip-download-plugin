@@ -21,12 +21,12 @@
   "oracle": {
     "versions": ["12.2.0.1", "20.1"],
     "apex": {
-      "versions": ["5.1.0", "20.1"],
+      "versions": ["5.1.0", "21.1"],
       "plugin": {
         "internalName": "COM.STRACK-SOFTWARE.IR_ZIP_DOWNLOAD",
         "type": "process",
         "demo": "https://apex.oracle.com/pls/apex/f?p=39653:LOGIN_DESKTOP",
-        "previewImage": ""
+        "previewImage": "https://github.com/dstrack/strack-software-ir-zip-download-plugin/blob/main/IR-Zip-Download%20Process.png"
       }
     }
   }
