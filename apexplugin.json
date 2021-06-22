@@ -1,6 +1,6 @@
 {
   "name": "IR Zip-file Download",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Process plugin for download for interactive reports as zip files",
   "keywords": ["download", "interactive", "report", "zip"],
   "homepage": "https://github.com/dstrack/strack-software-ir-zip-download-plugin",
@@ -26,7 +26,7 @@
         "internalName": "COM.STRACK-SOFTWARE.IR_ZIP_DOWNLOAD",
         "type": "process",
         "demo": "https://apex.oracle.com/pls/apex/f?p=39653:LOGIN_DESKTOP",
-        "previewImage": "https://github.com/dstrack/strack-software-ir-zip-download-plugin/blob/main/IR-Zip-Download%20Process.png"
+        "previewImage": "https://raw.githubusercontent.com/dstrack/strack-software-ir-zip-download-plugin/main/IR-Zip-Download%20Process.png"
       }
     }
   }
