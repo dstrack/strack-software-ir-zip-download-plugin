@@ -17,9 +17,9 @@ Usage:
     Set Condition / Type to : REQUEST = Value, set Condition / Value to : ZIP_DOWNLOAD
 
 The plugin performs the following steps:
-1. extract the query with APEX_IR.GET_REPORT
-2. bind the variables
-3. Open cursor for the query
-4. convert to CSV.
-5. Convert to zip with APEX_ZIP.ADD_FIle
+1. Extract the query with APEX_IR.GET_REPORT
+2. Bind the variables for filter conditions
+3. Open cursor for query and load the rows
+4. Convert to CSV. The parameters 'CSV Separator', 'CSV Enclosed By', and 'Filename' defined under Attributes / Download of the report region are recognized. The Enclosing character is only used, when a data value contains the 'CSV Separator', or newline character.
+5. Convert to ZIP with APEX_ZIP.ADD_FILE. Up to 2GB of compressed data can be processed.
 6. Start the download to the browser
